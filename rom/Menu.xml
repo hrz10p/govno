@@ -1,0 +1,28 @@
+<ul class="nav side-menu">
+  <li>
+    <a>
+      <i class="fa fa-users"></i> Заказчики <span class="fa fa-chevron-down"></span></a>
+    <ul class="nav child_menu">
+      <li>
+        <a href="/rom/Rcustomer.aspx">Управление</a>
+      </li>
+      
+  
+    </ul>
+  </li>
+
+  <li>
+    <a>
+      <i class="fa fa-dot-circle-o"></i>Заявки <span class="fa fa-chevron-down"></span>
+    </a>
+    <ul class="nav child_menu">
+      <li>
+        <a href="/rom/default.aspx">Создать</a>
+      </li>
+
+    </ul>
+  </li>
+
+
+
+</ul>

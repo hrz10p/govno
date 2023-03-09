@@ -1,0 +1,93 @@
+<ul class="nav side-menu">
+  <li>
+    <a>
+      <i class="fa  fa-fire"></i> Магазин <span class="fa fa-chevron-down"></span></a>
+    <ul class="nav child_menu">
+      <li>
+        <a href="/mhd/manageFlavors.aspx">Контент</a>
+      </li>
+      <li>
+        <a href="/mhd/ContentEditor.aspx">Редактор</a>
+      </li>
+      <li>
+        <a href="/mhd/SomeProducts.aspx">     
+          Рубрика 'С этим покупают'
+        </a>
+      </li>
+      <li>
+        <a href="/mhd/MinForDeliv.aspx">
+         Минимальная сумма заказа
+        </a>
+      </li>
+    </ul>
+  </li>
+
+
+  <li>
+    <a>
+      <i class="fa fa-gift"></i> Бонусы <span class="fa fa-chevron-down"></span>
+    </a>
+    <ul class="nav child_menu">
+      <li>
+        <a href="/mhd/FirstRequestBonus.aspx">Бонус за первую регистрацию</a>
+      </li>
+      <li>
+        <a href="/mhd/bonus.aspx">Другие бонусы</a>
+      </li>
+
+    </ul>
+  </li>
+
+  <li>
+    <a>
+      <i class="fa  fa-sliders"></i> Справочники <span class="fa fa-chevron-down"></span>
+    </a>
+    <ul class="nav child_menu">
+      <li>
+        <a href="/mhd/tarifs.aspx">Тарифы</a>        
+      </li>
+      <li>
+        <a href="/mhd/dp.aspx">Параметры отказа</a>
+      </li>
+
+    </ul>
+  </li>
+  
+  <li>
+    <a>
+      <i class="fa  fa-calendar"></i> Режим работы <span class="fa fa-chevron-down"></span>
+    </a>
+    <ul class="nav child_menu">
+      <li>
+        <a href="/mhd/WorkingHours.aspx">График работы доставки</a>
+      </li>
+    </ul>
+  </li>
+ 
+
+  <li>
+    <a>
+      <i class="fa fa-automobile"></i> Транспорт <span class="fa fa-chevron-down"></span>
+    </a>
+    <ul class="nav child_menu">
+      <li>
+        <a href="/mhd/cars.aspx">Автомобили</a>
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <a>
+      <i class="fa fa-users"></i>Пользователи <span class="fa fa-chevron-down"></span>
+    </a>
+    <ul class="nav child_menu">
+      <li>
+        <a href="/mhd/Users.aspx">Управление</a>
+      </li>
+      <li>
+        <a href="/mhd/ua.aspx">Активность пользователей</a>
+      </li>
+    </ul>
+  </li>
+
+</ul>

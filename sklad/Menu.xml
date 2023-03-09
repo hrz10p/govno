@@ -1,0 +1,126 @@
+<ul class="nav side-menu">
+  <li>
+    <a>
+      <i class="fa fa-users"></i> Заявки <span class="fa fa-chevron-down"></span></a>
+    <ul class="nav child_menu">     
+      <li>
+        <a href="/sklad/SelectTradepoint.aspx">Создать заявку</a>
+      </li>
+      <li>
+        <a href="/sklad/default.aspx">Поступившие заявки</a>
+      </li>
+      <li>
+        <a href="/sklad/closed.aspx">Закрытые заявки</a>
+      </li>
+     
+    </ul>
+  </li>
+
+  <li>
+    <a>
+      <i class="fa fa-dot-circle-o"></i>Торговые точки <span class="fa fa-chevron-down"></span>
+    </a>
+    <ul class="nav child_menu">
+      <li>
+        <a href="/sklad/OutletsManagement.aspx">Управление</a>
+      </li>
+
+    </ul>
+  </li>
+
+  <li>
+    <a>
+      <i class="fa fa-ge"></i>Холодильные склады <span class="fa fa-chevron-down"></span>
+    </a>
+    <ul class="nav child_menu">
+      <li>
+        <a href="/sklad/RefrigeratedWarehouse.aspx">Добавление складов</a>
+      </li>
+      <li>
+        <a href="/sklad/CellsTypesEditor.aspx">Типы секций</a>
+      </li>
+      <li>
+        <a href="/sklad/Flavor.aspx">Вкусы мороженного</a>
+      </li>
+      <li>
+        <a href="/sklad/RefrCellSections.aspx">Управление секциями</a>
+      </li>
+      <li>
+        <a href="/sklad/ReplenishmentA.aspx">Добавить мороженное</a>
+      </li>
+
+    </ul>
+  </li>
+
+
+  <li>
+    <a>
+      <i class="fa fa-dropbox"></i>Сухие склады <span class="fa fa-chevron-down"></span>
+    </a>
+    <ul class="nav child_menu">
+      <li>
+        <a href="/sklad/DryWarehouses.aspx">Добавление складов</a>
+      </li>
+      <li>
+        <a href="/sklad/ContentShelves.aspx">Содержимое полок</a>
+      </li>
+
+      <li>
+        <a href="/sklad/dwbarcodes.aspx">Управление товарными кодами</a>
+      </li>
+    </ul>
+  </li>
+
+
+  <!--<li>
+    <a>
+      <i class="fa fa-barcode"></i>Пополнение холодильника<span class="fa fa-chevron-down"></span>
+    </a>
+    <ul class="nav child_menu">
+            
+
+    </ul>
+  </li>-->
+
+  <li>
+    <a>
+      <i class="fa fa-male"></i>Заказчики<span class="fa fa-chevron-down"></span>
+    </a>
+    <ul class="nav child_menu">
+      <li>
+        <a href="/sklad/CustomerMngDepAc.aspx">Управление доступом</a>
+      </li>
+      
+      <li>
+        <a href="/sklad/Rcustomer.aspx">Регистрация заказчиков</a>
+      </li>
+     
+      <li>
+        <a href="/sklad/CustomersRequests.aspx">Поступившие заявки</a>
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <a>
+      <i class="fa fa-automobile"></i> Транспорт <span class="fa fa-chevron-down"></span>
+    </a>
+    <ul class="nav child_menu">
+      
+      <li>
+        <a href="/sklad/mhdupload.aspx">Пополнение транспорта доставки</a>
+      </li>
+      
+      <li>
+        <a href="/sklad/cars.aspx">Автомобили</a>
+      </li>
+      <li>
+        <a href="/sklad/manageFlavors.aspx">Управление вкусами</a>
+      </li>
+    </ul>
+  </li>
+  
+  
+  
+  
+</ul>

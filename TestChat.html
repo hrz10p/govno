@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <input type="text" id="user" />
+    <input type="text" id="message" />
+    <input onclick="Send()" type="button" value="send" id="send" />
+    <div id='messages'></div>
+
+    <script type="text/javascript">
+        function Send()
+        {
+            var socket,
+           $txt = document.getElementById('message'),
+           $user = document.getElementById('user'),
+           $messages = document.getElementById('messages');
+
+            if (typeof (WebSocket) !== 'undefined') {
+                socket = new WebSocket("ws://skladbanurns.kz/MService/WSServer.ashx?ID=AC69D403-DEFB-43D5-A6D5-46D6621C9227");
+            } else {
+                socket = new MozWebSocket("ws://skladbanurns.kz/MService/WSServer.ashx?ID=AC69D403-DEFB-43D5-A6D5-46D6621C9227");
+            }
+
+            socket.onmessage = function (msg) {
+                var $el = document.createElement('p');
+                $el.innerHTML = msg.data;
+                $messages.appendChild($el);
+            };
+
+            socket.onclose = function (event) {
+                alert('Мы потеряли её. Пожалуйста, обновите страницу');
+            };
+
+            document.getElementById('send').onclick = function () {
+                socket.send($user.value + ' : ' + $txt.value);
+                $txt.value = '';
+            };
+        }
+    </script>
+</body>
+</html>

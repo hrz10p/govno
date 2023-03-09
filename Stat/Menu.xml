@@ -1,0 +1,14 @@
+<ul class="nav side-menu">
+  <li>
+    <a>
+      <i class="fa fa-users"></i> Статистика <span class="fa fa-chevron-down"></span></a>
+    <ul class="nav child_menu">
+      <li>
+        <a href="/Stat/default.aspx">Управление</a>
+      </li>
+    </ul>
+  </li>
+
+ 
+
+</ul>

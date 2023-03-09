@@ -1,0 +1,90 @@
+<ul class="nav side-menu">
+  <li>
+    <a>
+      <i class="fa fa-users"></i> Пользователи <span class="fa fa-chevron-down"></span></a>
+    <ul class="nav child_menu">
+      <li>
+        <a href="/AdminPanel/UsersManage.aspx">Управление пользователями</a>
+      </li>
+      <li>
+        <a href="/AdminPanel/RoleManager.aspx">Управление ролями</a>
+      </li>
+  
+    </ul>
+  </li>
+
+  <li>
+    <a>
+      <i class="fa fa-dot-circle-o"></i>Торговые точки <span class="fa fa-chevron-down"></span>
+    </a>
+    <ul class="nav child_menu">
+      <li>
+        <a href="/AdminPanel/OutletsManagement.aspx">Управление</a>
+      </li>
+
+    </ul>
+  </li>
+
+  <li>
+    <a>
+      <i class="fa fa-filter"></i>Доступ на склады <span class="fa fa-chevron-down"></span>
+    </a>
+    <ul class="nav child_menu">
+      <li>
+        <a href="/AdminPanel/DepotAcces.aspx">Управление</a>
+      </li>
+
+    </ul>
+  </li>
+  
+  
+  <li>
+    <a>
+      <i class="fa fa-ge"></i>Холодильные склады <span class="fa fa-chevron-down"></span>
+    </a>
+    <ul class="nav child_menu">
+      <li>
+        <a href="/AdminPanel/RefrigeratedWarehouse.aspx">Добавление складов</a>
+      </li>
+      <li>
+        <a href="/AdminPanel/CellsTypesEditor.aspx">Типы секций</a>
+      </li>
+      <li>
+        <a href="/AdminPanel/Flavor.aspx">Вкусы мороженного</a>
+      </li>
+      <li>
+        <a href="/AdminPanel/RefrCellSections.aspx">Управление секциями</a>
+      </li>
+
+    </ul>
+  </li>
+ 
+
+  <li>
+    <a>
+      <i class="fa fa-dropbox"></i>Сухие склады <span class="fa fa-chevron-down"></span>
+    </a>
+    <ul class="nav child_menu">
+      <li>
+        <a href="/AdminPanel/DryWarehouses.aspx">Добавление складов</a>
+      </li>
+      <li>
+        <a href="/AdminPanel/ContentShelves.aspx">Содержимо полок</a>
+      </li>
+      
+
+    </ul>
+  </li>
+
+  <li>
+    <a>
+      <i class="fa fa-sitemap"></i> Устройства <span class="fa fa-chevron-down"></span></a>
+    <ul class="nav child_menu">
+      <li>
+        <a href="/AdminPanel/AddNewDevice.aspx">Управление</a>
+      </li>
+     
+    </ul>
+  </li>
+
+</ul>

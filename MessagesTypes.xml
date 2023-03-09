@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MessagesTypes>
+  <Message Type="RequestClose">Ваш заказ отправлен со склада!</Message>
+</MessagesTypes>
